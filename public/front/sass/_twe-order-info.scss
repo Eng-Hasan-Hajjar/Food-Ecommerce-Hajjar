@@ -1,0 +1,47 @@
+ back-marg{
+    background: #ddd;
+    margin: 25px auto; 
+ }
+ .twe-order-info{
+     .name-res{
+        color: #444;
+        font-size: 20px;
+        font-weight: 600;
+         background: #ddd;
+         margin: 25px auto;
+         border-radius: 20px;
+         div:nth-of-type(2){
+            padding-top: 15px;
+         }
+        img{
+            width: 139px;
+            padding-right: 20px;
+            padding-left: 5px;
+         }
+     }
+     .adderrs
+     {
+        background: #ddd;
+        padding: 10px;
+        border-radius: 15px;
+        margin: 25px auto;
+        h4{
+            color: #444;
+        }
+        p{
+            font-size: 20px;
+            padding-right: 10px;
+            font-weight: bold;
+            color: #555;
+        }
+     }
+     .meal-info,.total{
+        background: #ddd;
+        margin: 25px auto;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #333;
+     }
+ }

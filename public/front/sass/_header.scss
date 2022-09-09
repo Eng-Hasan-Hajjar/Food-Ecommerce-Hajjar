@@ -1,0 +1,87 @@
+body,html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+}
+header {
+    nav{
+        background: #ececec;
+        min-height: 110px;
+        .fas{
+            color:$colorMain;
+            font-size: 30px;
+        }
+        .span-search{
+            width: 155;
+            .icon-search{
+                font-size: 25px;
+                text-align: right;
+                display: block;
+                margin-top: 4px;
+                color: $colorMain;
+            }
+        }
+        .icon{
+            display: none;
+            span{
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                button{
+                    background: none;
+                    border: none;
+                    color: $colorMain;
+                }
+            }
+        }
+        .icon-nav{
+            input{
+                background-color: #f3f3f3;
+                border:none;
+                width: 8rem;
+
+            }
+            .dropdown-toggle::after {
+               display: none;
+               margin-left: 0;
+               border-top: 0.7em solid #fff;
+               border-right: 0.4em solid transparent;
+               border-bottom: 0;
+               border-left: 0.4em solid transparent;
+            }
+        .dropdown-menu
+            {
+                top: -37px !important;
+                left: -40px !important;
+                border: none;
+
+                ul{
+                    line-height: 1.7;
+                    li{
+                        padding: 2px;
+                        a{
+                            padding: 1px;
+                        }
+                    }
+                    .fas{
+                        color:#555;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+      .img{
+          img{
+              width: 120px;
+              width: 147px;
+              padding: 10px;
+          }
+      }
+    }
+}
+.footer-bottom{
+    flex:1 0 auto;
+}

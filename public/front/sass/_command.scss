@@ -1,0 +1,25 @@
+.command{
+        @include back-img("../images/cart-bg.png") ;
+    h2{
+        color: $colorh2;
+        font-weight: bold;
+    } 
+    .command-p{
+        margin-top: 30px;
+        font-size: 20px;
+        color: #555;
+        font-weight: 600;
+    }
+    .total{
+        font-size: 21px;
+        margin: 40px auto;
+        color: #666;
+        font-weight: 600;
+    }
+    .num-phone{
+        font-size: 21px;
+        color: #666;
+        font-weight: bolder;
+        margin: 0  auto 50px;
+    }
+}

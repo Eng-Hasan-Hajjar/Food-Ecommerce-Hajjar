@@ -1,0 +1,125 @@
+.top-h2{
+    color:$colorMain;
+}
+
+.add_offer{
+    width: 65%;
+    margin: 80px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    @media (max-width:480px) {
+        width: 95%;
+    }
+    .user-input{
+        .img {
+            width: 112px;
+            overflow: hidden;
+            margin: 15px auto;
+            position: relative;
+            height: 106px;
+            cursor: pointer;
+            margin-top: -82px;
+            margin-bottom: 30px;
+            cursor: pointer;
+            input {
+                width: 110px;
+                height: 60px;
+                opacity: 0;
+                z-index: 1;
+                cursor: pointer;
+            }
+            img {
+                position: absolute;
+                width: 100%;
+                z-index: 0;
+            }
+    
+        }    
+    }
+    .form-control{
+        background-color: #eee;
+        border: none;
+        min-height: 3.5rem;
+        border-radius: 10px;
+        font-size: 1.4rem;
+      
+    }
+
+    .img-input{
+         .img {
+            width: 100px;
+            overflow: hidden;
+            margin: 15px auto;
+            position: relative;
+            height: 60px;
+            box-shadow: 0px 0px 5px -3px #000;
+            cursor: pointer;
+            input {
+                width: 100px;
+                height: 60px;
+                opacity: 0;
+                z-index: 1;
+                cursor: pointer;
+            }
+            img {
+                position: absolute;
+                width: 100%;
+                z-index: 0;
+            }
+        }
+
+    }
+    h3{
+        color:$colorh2;
+    }
+    .datetimepicker-input{
+        background-color: #eee;
+        border: none;
+        height: 33px;
+        padding: 5px;
+    }
+    .input-group-text {
+        background-color: #eee;
+        border: none;
+        border-radius: 0;
+ }
+ .form-group {
+    margin-bottom: 2rem;
+} 
+form{
+    button,.submit-style{
+        // margin:;
+        min-height: 3rem;
+        font-size: 25px;
+        width: 13rem;
+        border-radius: 35px;
+        border: none;
+        background: #cc314c;
+        color: #fff;
+        border-radius: 20px;
+    }
+    .link-a{
+        min-height: 3rem;
+        font-size: 25px;
+        width: 13rem;
+        border-radius: 35px;
+        border: none;
+        background: #cc314c;
+        color: #fff;
+        border-radius: 20px;
+        :hover{
+            color:#fff;
+        } 
+    }
+}
+}
+// add prodect
+.add-background{
+    background: #fff;
+}
+
+
+.form-control:focus{
+    background-color: #fff;
+}

@@ -1,0 +1,19 @@
+
+.about-me{
+    background: #ddd;
+    overflow: hidden;
+
+    .text-about{
+        width: 80%;
+        background: #fff;
+        line-height: 2;
+        margin: 10px auto;
+        text-align: center;
+        padding: 20px;
+        font-size: 18px;
+       font-weight: bolder;
+        color: #444;
+        border-radius: 20px;
+         box-shadow: 0px 0px 10px #3a3a3a;
+    }
+} 

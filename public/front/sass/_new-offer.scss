@@ -1,0 +1,45 @@
+.new-offer{
+    h2{
+        color: $colorh2;
+        font-weight: bold;
+    } 
+    .one-offer{
+        background: #ddd;
+        margin: 50px auto;
+        margin-right: 91px;
+        border-radius: 30px;
+        box-shadow: 0px 3px 11px 0px #000;
+        padding: 6px 0px;
+        @media (max-width:768px) {
+            flex-direction: column;
+            margin:50px auto;
+            text-align: center;
+          
+        }
+        img{
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            margin-right: -90px;
+            margin-top: 13px;
+            @media (max-width:768px) {
+                margin: auto;
+            }
+        }
+        p{
+            font-size: 25px;
+            color: #444;
+            margin-top: 41px;
+            padding-right: 24px;
+        }
+        a{
+            display: inline-block;
+            @include button-style(200px);
+            text-align: center;
+            min-height: 2rem;
+            padding: 11px;
+            background-image: linear-gradient(rgb(170, 4, 4),rgb(82, 0, 0));    
+    
+        }
+    }
+}

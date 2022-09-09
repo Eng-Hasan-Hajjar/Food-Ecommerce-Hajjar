@@ -1,0 +1,10 @@
+@mixin button-style($with){
+    margin: 30px 0px;
+    min-height: 4rem;
+    font-size: 25px;
+    width: $with;
+    border-radius: 35px;
+    border: none;
+    background:$colorMain ;
+    color: #fff;
+}

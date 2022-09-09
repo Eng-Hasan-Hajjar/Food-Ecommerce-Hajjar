@@ -1,0 +1,13 @@
+footer{
+    @include  back-img("../images/footer\ bg-min.png");
+    padding: 40px 0px;
+    color: #eee;
+    .div-text{
+        line-height: 1.7;
+        font-size: 20px;
+    }
+    .img{
+        width: 300px;
+    }
+
+}

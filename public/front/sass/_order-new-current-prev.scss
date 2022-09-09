@@ -1,0 +1,128 @@
+
+.nav-scon{
+    background-color: $colorMain;
+    a{
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: #fff;
+        padding: 20px 0px;
+        display: inline-block;
+        
+    }
+    .activ{
+        border-bottom: 2px solid $colorh2;
+    
+}
+}
+.cart-parend{
+    min-height: 500px;
+    .container-local{
+        width: 80%;
+        margin: 10px auto;
+        @media (max-width:480px) {
+            width: 100%;
+
+        }
+        .cart{
+            font-weight: bold;
+            background-color: #fff;
+            padding: 25px 10px;
+            border-radius: 20px;
+            color: #444;;
+            margin: 40px auto;
+            line-height: 1.7;
+            box-shadow: 1px 1px 10px 0px #000;
+            h3{
+                color: $colorMain;
+            }
+            .text-cart
+            {
+                color: #555;
+                  font-size: 21px;
+                 font-weight: bold;
+            }
+
+
+            img{
+                border-radius: 50%;
+                padding-left: 0px;
+                border: 2px solid $colorMain;
+            }
+            select{
+                border: none;
+                padding: 0px 3px;
+                background-color: #eee;
+            
+            }
+            button{
+                width: 8rem;
+                height: 2.7rem;
+                border-radius: 20px;
+                font-size: 20px;
+                margin: 10px auto;
+
+            }
+            b{
+                font-weight: 600;
+                font-size: 20px;
+            }
+        }
+    
+    }
+}
+//  ////////////////////////////////////////////////////////
+.cart-current{
+        min-height: 500px;
+        .container-local{
+            width: 70%;
+            @media (max-width:480px) {
+                width: 100%;
+    
+            }
+            .cart{
+
+                line-height: 2;
+                h3{
+                    color: $colorh2;
+                }
+                .text-cart
+                {
+                    color: #b90424;
+                      font-size: 21px;
+                     font-weight: bold;
+                }
+                img{
+
+                    border: none;
+                }
+                button{
+                    width: 90%;
+
+    
+                }
+                .color-local{
+                    background-color: $colorh2;
+                }
+                b{
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+            }
+        
+        }
+    }
+    .responsev{
+        a{
+            @media (max-width:575px) {
+                padding: 2px 0px;
+                font-size: 1.5rem;
+
+        }
+        }
+
+    }
+    ////////////////////////////////////////////////
+    .cart-previous .container-local .cart button {
+        width: 12rem;
+        margin: 10px auto;
+    }

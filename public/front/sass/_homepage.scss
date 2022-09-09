@@ -1,0 +1,154 @@
+body{
+    direction: rtl;
+}
+.header-img {
+    @include back-img("../images/header.png");
+    height: 550px;
+    color: #fff;
+    .logo{
+        font-size: 160px;
+        transform: rotate(-23deg);
+        padding: 20px;
+        @media (max-width:480px) {
+            font-size: 7rem;
+        }
+    }
+    button{
+        @include button-style(18rem)
+    }
+}
+.restaurants{
+    @include back-img("../images/Group\ 1034.jpg");
+    padding: 30px 0;
+    .h2-top{
+        color:$colorh2;
+    }
+    form{
+        .col{
+            padding: 0px 40px;
+            @media (max-width:480px) {
+                padding: 5px ;
+
+            }
+         }
+         button{
+            border: 0;
+            background: none;
+         }
+        .form-control{
+            height: 4rem; 
+            border-radius: 20px;
+            background-color: #fbfbfb;
+        }
+        select {
+            background: transparent;
+            /*background-color: blue;*/
+            -webkit-appearance: none;
+            -moz-appearance: none;
+             appearance: none;
+            background-size: 20px;
+          }
+    }
+    .content-card{
+       h2{
+           color: $colorMain ;
+           font-size: 38px;
+       }
+        .back-color{
+            background-color: #fff;
+            padding: 9px 15px;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+        p{
+            color: #555;
+            font-size: 18px;
+        }
+        .star{
+            ul{
+                padding: 0;
+                li{
+                    font-size: 20px;
+                    display: inline-block
+                }
+                li:nth-of-type(1){
+                    color:$colorMain ;
+                }
+                li:nth-of-type(2){
+                    color:$colorMain ;
+                }
+                li:nth-of-type(3){
+                    color:$colorMain ;
+                }
+                li:nth-of-type(4){ 
+                    color:rgb(0, 1, 80) ;
+                }
+                li:nth-of-type(5){
+                    color:rgb(0, 1, 80) ;
+                }
+            }
+        }
+        .test{
+            .span-color{
+             padding: 0px 10px;
+             background: green;
+             border-radius: 50%;
+             width: 4px;
+             margin-left: 4px;
+           }
+           .span-test{
+            font-size: 1.4rem;
+           }
+         }
+    }
+    .img-card{
+        img{
+            width: 150px;
+        }
+    }
+    .card-rest{
+        background: #fff;
+        padding: 20px 10px;
+    }
+    .open-lock{
+        span{
+            width: 43px;
+            background: green;
+            overflow: hidden;
+            padding: 0px 9px;
+            border-radius: 50%;
+        }
+    }
+}
+.offers{
+    padding: 110px 0px;
+    .detail{
+        @include back-img("../images/offers-bg.jpg");
+        line-height: 2;
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        padding: 25px 50px;
+        border-radius: 20px;
+        button{
+            @include button-style(60%);
+            background-image: linear-gradient(#f34b82, #630000);
+        }
+    }
+}
+.download-app{
+    @include back-img("../images/our-app.png");
+    padding-top: 50px;
+    h2{
+        font-size: 50px;
+        color: #fff;
+    }
+    button{
+        @include  button-style(65%);
+        @include back-img("../images/download button.png");
+        border-radius: 5px;
+        font-size: 40px;
+        margin-top: 25%;
+
+    }
+}

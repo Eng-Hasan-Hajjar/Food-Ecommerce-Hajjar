@@ -1,0 +1,63 @@
+.one-order-info{
+    .massege{
+        h2{
+            color: $colorh2;
+            font-weight: bolder;
+        }
+        textarea {
+            width: 100%;
+            border: none;
+            background: rgb(248, 248, 248);
+            margin: 20px auto;
+            border-radius: 29px;
+            padding: 20px;
+            box-shadow: 0px 0px 12px 0px #4d4b4b;
+            font-size: 20px;
+            &:focus{
+                background: #fff;
+
+            }
+        }
+    }
+    .customer-address{
+        text-align: right;
+        h4,h3{
+            color: #555;
+        }
+        p:first-of-type{
+             color: $colorMain; 
+             font-size: 20px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 600;
+            color: $colorMain; 
+
+        }
+    }
+    .total{
+        font-size: 20px;
+        color: #444;
+        background: #fff;
+        box-shadow: 5px 6px 15px #b1b1b1;
+        padding: 10px;
+        margin: 50px 10px;
+        font-weight: bold;
+        border-radius: 30px;
+        span{
+            color: #666;
+            padding-right: 2px;
+        }
+    }
+    button{
+        margin: 20px auto;
+        color: #e3e2e2;
+        background-image: linear-gradient(#cc0606,#380909);                font-size: 18px;
+        font-weight: 600;
+        width: 16rem;
+        border: none;
+        padding: 10px;
+        border-radius: 20px;
+        display: inline-block;
+        }
+}

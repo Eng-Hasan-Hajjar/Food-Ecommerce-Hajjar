@@ -1,0 +1,30 @@
+.register{
+    .icon-user{
+        font-size: 80px;
+        margin-top: -80px;
+        display: inline-block;
+        background: #fff;
+        padding: 12px 32px;
+        border-radius: 50%;
+        border: 2px solid #000150;
+        box-shadow: 1px 1px 6px #444;
+    
+    }
+    background: #fff;
+}
+.back-body{
+    padding: 199px 1px;
+    @include back-img("../images/bg\ img.png");
+    background-position: 22%;
+
+}
+.register-seler{
+    .selector-img {
+        background: url(../images/default-image.jpg) no-repeat center center;
+        background-size: cover;
+        width: 104px;
+        border-radius: inherit;
+        height: 60px;
+        border: none;
+    }
+}

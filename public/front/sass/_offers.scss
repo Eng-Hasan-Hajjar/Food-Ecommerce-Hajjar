@@ -1,0 +1,15 @@
+.offers{
+    min-height: 500px;
+    padding: 20px 1px;
+    h3{
+        color:$colorMain;
+        margin: 20px auto;
+        border-right:2px solid $colorh2 ;
+    }
+    .style-btn{
+        button{
+            @include button-style(17rem);
+            min-height: 3rem;
+        }
+    }
+}

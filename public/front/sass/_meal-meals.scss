@@ -1,0 +1,135 @@
+@keyframes pull{
+from{
+    left: 5px;
+    transform: rotate3d(0, 0, 0, 180deg)
+
+}to{
+    left: 255px;
+    transform: rotate3d(0, 0, 0, 180deg)
+
+}
+}
+.evaluation{
+    @include back-img("../images/Group\ 1038.jpg");
+    padding: 315px 0px;
+    height:500px;
+    .star{
+        margin: 75px 0px 0px 30px;
+        ul{
+            background: #FFF;
+            padding: 12px 30px;
+            border-radius: 50px;
+            li{
+                font-size: 30px;
+                display: inline-block
+            }
+            li:nth-of-type(1){
+                color:$colorMain ;
+            }
+            li:nth-of-type(2){
+                color:$colorMain ;
+            }
+            li:nth-of-type(3){
+                color:$colorMain ;
+            }
+            li:nth-of-type(4){
+                color:rgb(0, 1, 80) ;
+            }
+            li:nth-of-type(5){
+                color:rgb(0, 1, 80) ;
+            }
+        }
+    }
+}
+.meals{
+    padding: 50px 0px;
+    @include back-img("../images/Group\ 1034.jpg");
+    .add-link{
+        color:#fff
+    }
+    .div-top{
+        h2{
+            margin: 30px 0px; 
+            color: $colorh2;
+        }
+        button{
+          @include button-style(18rem)
+        }
+    }
+    .card{
+        border-radius: 25px;
+        position: relative;
+        .card-img-top {
+            border-top-left-radius:25px;
+            border-top-right-radius: 25px;
+        }
+        .card-title{
+            color:$colorMain;
+        }
+        .text-muted {
+            font-size: 15px;
+        }
+        .price {
+            font-size: 20px;
+            span{
+                color: #444;
+            }
+            color:$colorMain;
+            img{
+                width: 13%;           
+             }
+        }
+        .icon-add{
+            position: absolute;
+            left: 5px;
+            a{
+                color:$colorMain;
+                font-size: 30px;
+            }
+
+        }
+        .icon-clear{
+            position: absolute;
+            right: 5px;
+            font-size: 40px;
+            button{
+                background: none;
+                border: none;
+                color:$colorMain;
+            }
+        }
+        .inimation-icon{
+            animation: pull  30s 0s  ;
+            transform: rotate3d(0, 1, 0, 180deg);
+            transition: 2s;
+
+        }
+        .icon-clear:hover{
+            animation-play-state: paused;
+        }
+        .more-info{
+            @include  button-style(75%);
+            @include back-img("../images/download button.png");
+            border-radius: 15px;
+            font-size: 20px;
+            margin: 5px 0px;  
+            height: 3rem; 
+        } 
+    }
+}
+.activ-star{
+        color:$colorMain ;
+}
+.no-activ{
+        color:$colorh2 ;
+}
+.icon{
+    position: relative;
+    .fas{
+        position: absolute;
+        top: 22px;
+        left: 12px;
+        font-size: 22px;
+        color: $colorMain;
+    }
+}

@@ -1,0 +1,55 @@
+.connect-us{
+    h2{
+        color: #fff;
+    }
+    background-image: linear-gradient(#ec3454,#ad2239);
+    .form-control{
+        background-color: #fff;
+        font-size: 25px;
+    }
+    form{
+        .icon-user{
+            font-size: 70px;
+            background: #fff;
+            padding: 10px 23px;
+            border-radius: 50%;
+        
+        }
+        button{
+            background: $colorh2;
+            width: 45%;
+            min-height: 3.5rem;
+
+        }
+        input[type='radio']:after {
+            width: 25px;
+            height: 25px;
+            border-radius: 15px;
+            top: -4px;
+            left: 1px;
+            position: relative;
+            background-color: #fff;
+            content: '';
+            display: inline-block;
+            visibility: visible;
+        }
+    
+        input[type='radio']:checked:after {
+            width: 25px;
+            height: 25px;
+            top: -4px;
+            left: 1px;
+            position: relative;
+            background-color: #07056b;
+            content: "";
+            border: none;
+        }
+        .form-check-label {
+            font-size: 20px;
+            color: #fff;
+        }
+        .form-check-inline {
+            margin: 2px 20px 2px 25px;
+        }
+    }
+}

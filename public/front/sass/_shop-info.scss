@@ -1,0 +1,39 @@
+.shop-info{
+    h2{
+        color: $colorh2;
+        margin: 20px auto;
+    }
+    .div-img{
+        text-align: center;
+        img{
+            width: 200px;
+            box-shadow: 1px 0px 9px 0px #000;
+            border-radius: 50%;
+        }
+        h3{
+            color: $colorMain;
+            margin: 10px auto;
+
+        }
+    }
+    .info{
+        .row{
+            box-shadow: 0px 0px 5px #8c8989;
+            border-radius: 20px;
+            margin: 20px auto;
+            padding: 10px 0px;
+
+        }
+        font-size: 25px;
+        font-weight: 600;
+        color: #555;
+        margin: 40px auto;
+        box-shadow: 1px 1px 8px #cecece;
+        padding: 20px;
+        border-radius: 40px;
+        line-height: 2;
+        hr{
+            border-width: 2px;
+        }
+    }
+}
